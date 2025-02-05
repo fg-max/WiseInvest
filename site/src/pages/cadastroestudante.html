@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WiseInvest</title>
+  <link rel="icon" href="../img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="../style/js/style.css">
+  <link rel="stylesheet" href="../style/js/styled-components.css">
+</head>
+<body style="background-color: #e5e5e5  ;">
+  <header class="loginHeader">
+    <img src="../img/favicon.png" alt="">
+  </header>
+  <section class="cadEstudante">
+    <h1>Agora, só precisamos de mais algumas informações...</h1>
+    <form action="https://wise1nvest.000webhostapp.com/projeto/site/src/php/cadastroestudante.php" method="post" class="formEstudante" id="formEstudante" name="formEstudante">
+        
+        <label for="">Nome Completo:</label>
+        <input type="text" id="nomeEstudante" name="nome_estudante" required>
+
+        <label for="">CPF:</label>
+        <input type="text" id="cpfEstudante" name="cpf_estudante" required>
+
+        <label for="">Sua instituição de ensino:</label>
+        <input type="text" name="instituicao_estudante" id="">
+
+        <label for="">Matrícula:</label>
+        <input type="number" name="matricula_estudante" id="">
+
+        <label for="">Curso:</label>
+        <input type="text" name="curso_estudante" id="">
+
+        <label for="">Área:</label>
+        <select name="area_estudante" id="">
+            <option value="" selected disabled></option>
+            <option value="Tecnologia">T.I e áreas correlatas</option>
+            <option value="Saúde">Saúde e cuidados humanos/animais</option>
+            <option value="Negócios">Administração e Negócios</option>
+            <option value="Engenharia">Engenharia</option>
+            <option value="Humanas">Ciências humanas e áreas correlatas</option>
+        </select>
+
+        <button type="submit" id="btnCadastroEstudante">Enviar</button>
+    </form>
+</section>
+    <script src="../style/js/script.js"></script>
+</body>
+</html>

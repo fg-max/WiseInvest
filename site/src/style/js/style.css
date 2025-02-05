@@ -1,0 +1,719 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://cdn-uicons.flaticon.com/2.4.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.4.0/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.4.0/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/2.4.0/uicons-solid-straight/css/uicons-solid-straight.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Montserrat';
+}
+
+.wise-header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: whitesmoke;
+    height: auto;
+    z-index: 1;
+}
+
+.wise-logo {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 20px;
+}
+
+.wise-logo h5 {
+    margin-bottom: 0;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.login-section {
+    display: flex;
+    gap: 2.5em;
+    margin-left: auto;
+    padding: 3em;
+}
+
+.login-section button {
+    padding: 0.7em;
+    text-align: center;
+    border: 1px solid black;
+    color: whitesmoke;
+    border-radius: 2px;
+    font-size: unset;
+    line-height: unset;
+}
+
+.login-button {
+    background-color: #010BF4;
+}
+
+.signup-button {
+    background-color: black;
+}
+
+.foguete {
+    max-width: 100%;
+    overflow: hidden;
+    padding-top: 8.2em;
+}
+
+.foguete img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.cards {
+    background-color: #014683;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.cards h3 {
+    position: absolute;
+    top: 0;
+    margin: 2em;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.cardIndex {
+    margin: 6em 12em;
+    background-color: white;
+    padding: 30px;
+    max-width: 15%;
+    border-radius: 1em;
+    box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.2);
+    align-items: flex-start;
+}
+
+.cardIndex i, .cardIndex p, .cardIndex a {
+    padding: 1.5em;
+    font-size: 18px;
+}
+
+.cardIndex a {
+    text-decoration: none;
+}
+
+.cards-info {
+    background-color: #fff;
+    display: flex;
+    margin: 6em;
+    justify-content: space-between;
+}
+
+.cards-info-text {
+    display: flex;
+    position: absolute;
+}
+
+.cards-info-text h3 {
+    font-size: 28px;
+}
+
+.cards-info-text button {
+    margin-left: 80em;
+    padding: 1.25em;
+    border: none;
+    color: black;
+    border-radius: 10px 10px 0px 10px;
+    font-weight: 600;
+}
+
+.card-info {
+    background-color: #014683;
+    color: whitesmoke;
+    max-width: 20%;
+    margin: 8em 4em;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-info i, .card-info h4 {
+    padding: 1.5em;    
+}
+
+.card-info p { 
+    text-align: justify;
+    padding: 1.2em;
+    margin: 5px;
+}
+
+.danilo {
+    font-size: 40px;
+}
+
+.text-info {
+    background-color: #014683;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 5em;
+}
+
+.text-info h1 {
+    color: #fff;
+    margin-bottom: 1em;
+    font-size: 28px;
+}
+
+.text-info ul li {
+    list-style: none;
+    color: #fff;
+    padding: 4px;
+    text-align: justify;
+}
+
+.info-img {
+    max-width: 100%;
+    margin-top: 22em;
+}
+
+footer {
+    background-color: #787C78;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+}
+
+.social-media {
+    display: flex;
+    margin: 3em;
+    gap: 1em;
+    font-size: 26px;
+    align-items: flex-start;
+}
+
+.social-media i {
+    height: auto;
+    cursor: pointer;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    padding: 4em;
+    margin-right: auto;
+    position: relative;
+    align-items: flex-start;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: blue;
+}
+
+.footer-text {
+    margin-left: 25em;
+    position: absolute;
+    align-self: center;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+.footer-text p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*-----------------------------FIM DA ESTILIZAÇÃO LANDING PAGE------------------------------------------------------*/
+
+.loginHeader {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    height: 12vh;
+    position: relative;
+}
+
+.loginHeader i {
+    font-size: 50px;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.loginHeader p {
+    font-size: 20px;
+    align-items: center;
+    padding: 0.65em;
+    font-weight: 500;
+}
+
+.loginHeader img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0; bottom: 0; left: 0; right: 0;
+}
+
+.loginHeader a {
+    position: absolute;
+    right: 0;
+    padding: 2em;
+    text-decoration: none;
+}
+
+#beck-icon {
+    display: flex;
+    cursor: pointer;
+    align-self: center;
+}
+
+.loginForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+    background-color: #E5E5E5;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.form-login label {
+    margin-bottom: 0.2em;
+}
+
+.form-login i {
+    position: absolute;
+    right: 0;
+    transform: translate(0, 5.25em);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-login input:not(.inputsenha) {
+    margin-bottom: 2em;   
+}
+
+.form-login input {
+    width: 25em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid #000;
+    background-color: transparent
+}
+
+.form-login a {
+    text-decoration: none;
+    align-self: center;
+    margin: 1em;
+    font-size: 14px;
+}
+
+.form-login button {
+    padding: 1em;
+    margin-top: 4em;
+    background-color: #072947;
+    color: #fff;
+    border-radius: 3em;
+    border: 1px solid #000;
+}
+
+.cadastroForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+    background-color: #E5E5E5;
+}
+
+.form-cadastro {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.form-cadastro label {
+    margin-bottom: 0.2em;
+}
+
+.form-cadastro i {
+    position: absolute;
+    right: 0;
+    transform: translate(0, 5em);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.rdoGroup label {
+    padding: 0.5em;
+}
+
+.form-cadastro input{
+    margin-bottom: 1.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid #000;
+    background-color: transparent   
+}
+
+.form-cadastro a {
+    text-decoration: none;
+    align-self: center;
+    margin: 1em;
+    font-size: 14px;
+}
+
+.form-cadastro button {
+    padding: 1em;
+    margin-top: 4em;
+    background-color: #072947;
+    color: #fff;
+    border-radius: 3em;
+    border: 1px solid #000;
+}
+
+.sejaProtagonista {
+    display: flex;
+    padding-top: 10em;
+    background-color: #014683;
+    color: #fff;
+}
+
+.infoWise {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    margin: 3em;
+    gap: 1em;
+}
+
+.infoWise i {
+    font-size: 80px;
+    align-self: flex-end;
+}
+
+.infoWise h2 {
+    align-self: flex-start;
+    position: absolute;
+    padding-top: 1em; padding-left: 2em;
+    font-size: 30px;
+}
+
+.infoWise p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.infoList {
+    display: flex;
+    margin: 3em 10em;
+    flex-wrap: wrap;
+    max-width: 40%;
+    gap: 1em;
+    justify-content: flex-start;
+    right: 0;
+}
+
+.infoList i {
+    font-size: 70px;
+    align-self: start;
+}
+
+.infoList h2 {
+    align-self: center;
+    padding: 1em;
+}
+
+.infoList p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 0.5em;
+}
+
+.adText {
+    display: flex;
+    position: absolute;
+    text-align: justify;
+    margin: 5em;
+}
+
+.adText h2 {
+    align-self: flex-start; 
+    width: 50%; 
+    font-size: 30px;
+}
+
+.adText p {
+    align-self: flex-end; 
+    max-width: 50%; 
+    text-align: justify;
+    
+}
+
+.adText {
+    display: flex;
+    position: absolute;
+    text-align: justify;
+}
+
+.adCards {
+    display: flex;
+    justify-content: space-around !important;
+    padding: 15em !important;
+}
+
+.adCard {
+    background-color: #787C78;
+    display: flex;
+    flex-direction: column;
+    padding: 4em !important;
+    border-radius: 2em;
+    gap: 1em;
+}
+
+.adCard i {
+    font-size: 50px;
+    align-self: flex-end;
+}
+
+.adCard p {
+    font-size: 18px;
+}
+
+.adCard h6 {
+    font-size: large;
+    align-self: center;
+}
+/*---------------------------------------FAQ----------------------------------------*/
+.faqDropdown {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5em;
+}
+
+.mainFaq {
+    padding-top: 144px;
+    
+}
+
+.about-us {
+    display: flex;
+    background-color: #014683;
+    flex-direction: column;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 7em;
+}
+
+.about-us img {
+    padding: 5em;
+    width: 256px;
+    height: 256px;
+    right: 0;
+    position: absolute;
+}
+
+.about-text p {
+    color: #fff;
+    text-align: justify;
+    padding: 0.2em;
+    font-weight: 400;
+}
+
+.about-text h3 {
+    color: #fff;
+    font-size: 34px;
+    padding: 1em;
+}
+/*----------------------------------------------------------------------------------*/
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar img {
+    width: 45%;
+    align-self: center;
+    margin: 2.5em 0;
+}
+
+.menu-items {
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    align-self: self-start;
+}
+
+.menu-items ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.menu-items ul li {
+    list-style: none;
+    display: inline-flex;
+    gap: 1em;
+}
+
+.menu-items ul li i {
+    font-size: 28px;
+}
+
+.menu-items ul li p {
+    font-size: 16px;
+    align-self: center;
+}
+
+.home-header {
+    position: fixed;
+    top: 0;
+    left: 15%;
+    width: 85%; 
+    background-color: whitesmoke;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.home-header h1 {
+    align-self: center;
+}
+
+.user-info {
+    display: flex;
+    margin-left: auto;
+    gap: 1em;
+}
+
+.user-info img {
+    border-radius: 5em;
+    max-height: 80%;
+    align-self: center;
+}
+
+.user-info h5 {
+    align-self: center;
+}
+
+.main-home {
+    background-color: #373ccc;
+    position: absolute;
+    top: 170px;
+    left: 15%;
+    height: calc(100vh - 170px);
+    padding: 5em;
+    box-sizing: border-box;
+}
+
+/*-------------------------------------------estilização da pag de cadastro empreendedor/estudante-------------------------------------*/
+.cadEmpreendedor {
+    display: flex;
+    flex-direction: column;
+}
+
+.cadEmpreendedor h1 {
+    padding: 4em 5em;
+}
+
+.formEmpreendedor {
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+    align-self: center;
+    gap: 0.5em;
+}
+
+.formEmpreendedor input {
+    margin-bottom: 1.25em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid #000;
+    background-color: transparent;
+    width: 220px;
+}
+
+.formEmpreendedor button {
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid transparent;
+    background-color: #598346;  
+}
+
+.cadEstudante {
+    display: flex;
+    flex-direction: column;
+}
+
+.cadEstudante h1 {
+    padding: 4em 5em;
+}
+
+.formEstudante {
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+    align-self: center;
+    gap: 0.5em;
+}
+
+.formEstudante input {
+    margin-bottom: 1.25em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid #000;
+    background-color: transparent;
+    width: 220px;
+}
+
+.formEstudante input[type="number"]::-webkit-outer-spin-button,
+.formEstudante input[type="number"]::-webkit-inner-spin-button,
+.formEstudanteinput[type="number"] {
+    -webkit-appearance: none;
+    margin: 0; /*remove o botão de aumentar/diminuir os numeros*/
+}
+
+.formEstudante select {
+    margin-bottom: 1.25em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid #000;
+    background-color: transparent;
+    width: 220px;
+}
+
+.formEstudante button {
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid transparent;
+    background-color: #598346;  
+}
+/*----------------------------------------------------------------------------------------------*/
+.formRec {
+    display: flex;
+    background-color: #787C78;
+    height: calc(100vh - 12vh);
+    width: 100%;
+}

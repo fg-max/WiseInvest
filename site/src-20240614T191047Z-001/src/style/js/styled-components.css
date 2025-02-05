@@ -1,0 +1,45 @@
+a:visited {
+    color: blue;
+}
+
+.login-section button:hover {
+    opacity: 75%;
+    cursor:pointer;
+}
+
+.card a:hover {
+    color: #000;
+}
+
+.cards-info button:hover {
+    opacity: 75%;
+    cursor: pointer;
+}
+
+.footer-links a:hover {
+    color: black;
+}
+
+/*-----------------------------------FIM DA ESTILIZAÇÃO DA LANDING PAGE----------------------------------------------*/
+
+.form-login button:hover {
+    opacity: 75%;
+    cursor: pointer;
+}
+
+.form-login a:hover {
+    color: #000;
+}
+
+.loginHeader a:hover {
+    color: #000;
+}
+
+.form-cadastro button:hover {
+    opacity: 75%;
+    cursor: pointer;
+}
+
+.menu-items ul li:hover {
+    background-color: #d4d3d3;
+}
